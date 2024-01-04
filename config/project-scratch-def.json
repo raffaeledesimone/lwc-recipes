@@ -1,6 +1,8 @@
 {
     "orgName": "LWC Recipes",
     "edition": "Developer",
+    "country": "IT",
+    "language": "en_US",
     "hasSampleData": false,
     "features": ["Walkthroughs", "EnableSetPasswordInApi"],
     "settings": {
@@ -13,6 +15,13 @@
         "userEngagementSettings": {
             "enableOrchestrationInSandbox": true,
             "enableShowSalesforceUserAssist": false
+        },
+        "securitySettings": {
+            "sessionSettings": {
+                "sessionTimeout": "TwentyFourHours",
+                "forceRelogin": false
+            },
+            "enableAdminLoginAsAnyUser": true
         }
     }
 }

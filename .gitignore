@@ -40,6 +40,6 @@ $RECYCLE.BIN/
 .vscode/*
 !.vscode/extensions.json
 
-# Local environment variables
+# Local environment variables/config
 .env
-.history/
+.history
